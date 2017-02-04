@@ -7260,5 +7260,8 @@ button.close {
   /* line 18, ../scss/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
+/* line 4, ../scss/main.scss */
+.emp-details {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
