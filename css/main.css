@@ -7260,7 +7260,11 @@ button.close {
   /* line 18, ../scss/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 4, ../scss/main.scss */
+/* line 3, ../scss/main.scss */
+body {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; }
+
+/* line 8, ../scss/main.scss */
 .emp-details {
   display: none; }
 

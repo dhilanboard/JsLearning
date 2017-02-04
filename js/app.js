@@ -20,7 +20,8 @@ function ajaxCall (){
 					'<div class="col-md-7 text-left">'+ 
 						'<h3>'+ data.name + '</h3>'+ 
 						'<h4>' + data.org + '</h4>'+ 
-						'<h5>' + data.profile + '</h5>'+ 
+						'<h5><strong>' + data.profile + '</strong></h5>'+
+						'<p style="color: #999;">' + data.desc + '</p>'+
 					'</div>'+ 
 				'</div>'
 			);
