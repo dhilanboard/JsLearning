@@ -1,13 +1,19 @@
-$.ajax({
-    type: 'GET',
-    url: 'http://example/functions.php',
-    data: { get_param: 'value' },
-    dataType: 'json',
-    success: function (data) {
-        $.each(data, function(index, element) {
-            $('body').append($('<div>', {
-                text: element.name
-            }));
-        });
-    }
-});
+(function(){
+	'use strict';
+	
+	$.ajax({
+		type: "GET",
+		url: "./JSON/data.json", 
+		dataType: "json",
+		success: function(data){	
+			console.log(data);
+			$("h1").html("<p>"+ data.name + "</p>");
+		},
+		error: function(){
+			$("body").append('<p>Error</p>');
+		}
+		
+	});
+}());
+
+
